@@ -10,6 +10,17 @@ O projeto utiliza o servidor web Nginx para exibir uma página HTML que apresent
 - Servir de laboratório para deploys em Docker e Kubernetes.
 - Disseminar a cultura do "Pru!".
 
+## Uso via Docker Hub
+
+A imagem deste projeto está disponível no Docker Hub e pode ser utilizada diretamente:
+
+[https://hub.docker.com/repository/docker/fabioalvaro/fabio-img-nginx/general](https://hub.docker.com/repository/docker/fabioalvaro/fabio-img-nginx/general)
+
+Exemplo de comando para rodar:
+```bash
+docker run -d -p 8080:80 fabioalvaro/fabio-img-nginx
+```
+
 ## Estrutura do Projeto
 
 - `Dockerfile`: Configuração da imagem baseada no Nginx.
